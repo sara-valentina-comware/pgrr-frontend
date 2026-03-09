@@ -1,4 +1,4 @@
-const API_URL = "https://sara-valentina-comware.github.io/-pgrr-backend/";
+const API_URL = "https://pgrr-backend.onrender.com";
 
 // LOGIN
 
@@ -94,7 +94,7 @@ export async function crearRequerimiento(data: any) {
 export async function getRequerimiento(id: string) {
 
     const res = await fetch(
-        `https://sara-valentina-comware.github.io/-pgrr-backend/${id}`
+        `https://pgrr-backend.onrender.com/${id}`
     );
 
     return res.json();
